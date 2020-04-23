@@ -12,6 +12,7 @@
     </con:part>
   </con:definitionCache>
   <con:endpoints>
+    <con:endpoint>http://localhost:8088/</con:endpoint>
     <con:endpoint>http://petstore.swagger.io</con:endpoint>
     <con:endpoint>https://petstore.swagger.io</con:endpoint>
   </con:endpoints>

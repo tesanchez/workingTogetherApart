@@ -38,10 +38,6 @@
 // pw.close()
 // fos.close()</con:script>
   </con:eventHandlers>
-  <con:virtServer>
-    <con:name>RemoteVirt</con:name>
-    <con:url>https://34.216.76.110:9090/virtserver#/</con:url>
-  </con:virtServer>
   <con:authRepository/>
   <con:tags/>
 </con:soapui-project>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction name="/v2/store/order/{orderId}" method="DELETE" resourcePath="/v2/store/order/{orderId}" id="0eba3b58-1793-457b-b0af-a36702753698" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="0eba3b58-1793-457b-b0af-a36702753698fileName">%2Fv2%2Fstore%2Forder%2F%7BorderId%7D-1</con:setting>
+  </con:settings>
+  <con:dispatchStyle>SEQUENCE</con:dispatchStyle>
+  <con:dispatchConfig/>
+  <con:dispatchXPath/>
+  <con:routeScript/>
+  <con:response name="Response 1" id="9b85a38b-59da-440d-b031-bbc2616f11f9" httpResponseStatus="400" mediaType="application/json">
+    <con:settings/>
+    <con:responseContent/>
+  </con:response>
+  <con:response name="Response 2" id="8013e2ce-9723-4c6b-a7a1-0f7b15c81276" httpResponseStatus="400" mediaType="application/xml">
+    <con:settings/>
+    <con:responseContent/>
+  </con:response>
+  <con:response name="Response 3" id="4f2859cd-4a79-43a1-9c20-85c632225dae" httpResponseStatus="404" mediaType="application/json">
+    <con:settings/>
+    <con:responseContent/>
+  </con:response>
+  <con:response name="Response 4" id="42ebea76-12e4-4a89-9008-d74c16f5c403" httpResponseStatus="404" mediaType="application/xml">
+    <con:settings/>
+    <con:responseContent/>
+  </con:response>
+</con:restMockAction>
