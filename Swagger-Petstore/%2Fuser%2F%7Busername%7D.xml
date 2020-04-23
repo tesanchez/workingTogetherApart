@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="/user/{username}" path="/user/{username}" id="87abd099-50c7-49bb-9768-2914ccdb36b2" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="/user/{username}" path="/user/{username}" id="87abd099-50c7-49bb-9768-2914ccdb36b2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="87abd099-50c7-49bb-9768-2914ccdb36b2fileName">%2Fuser%2F%7Busername%7D</con:setting>
   </con:settings>
@@ -67,6 +67,10 @@
     <con:request name="Request 1" id="8bd977b6-5247-472f-9f61-1a0393de5503" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://petstore.swagger.io</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>
@@ -126,6 +130,10 @@ Updated user</con:description>
   "phone" : "string",\r
   "userStatus" : 0\r
 }</con:request>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>
@@ -157,6 +165,10 @@ Delete user</con:description>
     <con:request name="Request 1" id="a60e3402-8ddd-40b4-aa7b-2770ab70a57b" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://petstore.swagger.io</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>
