@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="/pet" path="/pet" id="e2f672cb-bed7-4e1b-8163-644243de6b5e" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="e2f672cb-bed7-4e1b-8163-644243de6b5efileName">%2Fpet</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="addPet" id="504339ea-ed1e-4269-bea7-d5128fcb8dad" method="POST">
+    <con:description>Add a new pet to the store</con:description>
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="REQUEST">
+      <con:mediaType>application/json</con:mediaType>
+      <con:params/>
+      <con:sampleContent/>
+    </con:representation>
+    <con:representation type="REQUEST">
+      <con:mediaType>application/xml</con:mediaType>
+      <con:params/>
+      <con:sampleContent><![CDATA[<Pet>
+   <id>0</id>
+   <Category>
+      <id>0</id>
+      <name>string</name>
+   </Category>
+   <name>doggie</name>
+   <photoUrlss>
+      <photoUrl>string</photoUrl>
+   </photoUrlss>
+   <tagss>
+      <tag>
+         <id>0</id>
+         <name>string</name>
+      </tag>
+   </tagss>
+   <status>available</status>
+</Pet>]]></con:sampleContent>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json</con:mediaType>
+      <con:status>405</con:status>
+      <con:params/>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/xml</con:mediaType>
+      <con:status>405</con:status>
+      <con:params/>
+    </con:representation>
+    <con:representation type="REQUEST">
+      <con:mediaType>application/json</con:mediaType>
+      <con:params/>
+    </con:representation>
+    <con:representation type="REQUEST">
+      <con:mediaType>application/xml</con:mediaType>
+      <con:params/>
+    </con:representation>
+    <con:request name="Request 1" id="76c58f7f-a81e-4329-bfb2-cadf9d8cadbd" mediaType="application/json" postQueryString="false">
+      <con:settings/>
+      <con:endpoint>http://petstore.swagger.io</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+    <con:request name="Request 2" id="59e1be02-a88f-4c6a-8b30-538c7a0fa986" mediaType="application/xml" postQueryString="false">
+      <con:settings/>
+      <con:endpoint>http://petstore.swagger.io</con:endpoint>
+      <con:request><![CDATA[<Pet>\r
+   <id>0</id>\r
+   <Category>\r
+      <id>0</id>\r
+      <name>string</name>\r
+   </Category>\r
+   <name>doggie</name>\r
+   <photoUrlss>\r
+      <photoUrl>string</photoUrl>\r
+   </photoUrlss>\r
+   <tagss>\r
+      <tag>\r
+         <id>0</id>\r
+         <name>string</name>\r
+      </tag>\r
+   </tagss>\r
+   <status>available</status>\r
+</Pet>]]></con:request>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+  <con:method name="updatePet" id="0c920bc5-3a45-4c09-96bf-c80c57c3bf4f" method="PUT">
+    <con:description>Update an existing pet</con:description>
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="REQUEST">
+      <con:mediaType>application/json</con:mediaType>
+      <con:params/>
+      <con:sampleContent/>
+    </con:representation>
+    <con:representation type="REQUEST">
+      <con:mediaType>application/xml</con:mediaType>
+      <con:params/>
+      <con:sampleContent><![CDATA[<Pet>
+   <id>0</id>
+   <Category>
+      <id>0</id>
+      <name>string</name>
+   </Category>
+   <name>doggie</name>
+   <photoUrlss>
+      <photoUrl>string</photoUrl>
+   </photoUrlss>
+   <tagss>
+      <tag>
+         <id>0</id>
+         <name>string</name>
+      </tag>
+   </tagss>
+   <status>available</status>
+</Pet>]]></con:sampleContent>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json</con:mediaType>
+      <con:status>400</con:status>
+      <con:params/>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/xml</con:mediaType>
+      <con:status>400</con:status>
+      <con:params/>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json</con:mediaType>
+      <con:status>404</con:status>
+      <con:params/>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/xml</con:mediaType>
+      <con:status>404</con:status>
+      <con:params/>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json</con:mediaType>
+      <con:status>405</con:status>
+      <con:params/>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/xml</con:mediaType>
+      <con:status>405</con:status>
+      <con:params/>
+    </con:representation>
+    <con:representation type="REQUEST">
+      <con:mediaType>application/json</con:mediaType>
+      <con:params/>
+    </con:representation>
+    <con:representation type="REQUEST">
+      <con:mediaType>application/xml</con:mediaType>
+      <con:params/>
+    </con:representation>
+    <con:request name="Request 1" id="c98b2a24-4e7c-45cf-9cc9-cceaef864696" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://petstore.swagger.io</con:endpoint>
+      <con:request/>
+      <con:parameters/>
+    </con:request>
+    <con:request name="Request 2" id="416e5380-4ca2-4727-a2c4-66c9a2c9b62f" mediaType="application/xml">
+      <con:settings/>
+      <con:endpoint>http://petstore.swagger.io</con:endpoint>
+      <con:request><![CDATA[<Pet>\r
+   <id>0</id>\r
+   <Category>\r
+      <id>0</id>\r
+      <name>string</name>\r
+   </Category>\r
+   <name>doggie</name>\r
+   <photoUrlss>\r
+      <photoUrl>string</photoUrl>\r
+   </photoUrlss>\r
+   <tagss>\r
+      <tag>\r
+         <id>0</id>\r
+         <name>string</name>\r
+      </tag>\r
+   </tagss>\r
+   <status>available</status>\r
+</Pet>]]></con:request>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

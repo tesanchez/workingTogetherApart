@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="c17d2a88-b588-405d-b489-3a94eef8dc4b" name="WebTC" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="c17d2a88-b588-405d-b489-3a94eef8dc4bfileName">WebTC</con:setting>
+  </con:settings>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>
