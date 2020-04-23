@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="/user" path="/user" id="77a0bcc7-fade-43c2-9b44-5019eff7e69e" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="/user" path="/user" id="77a0bcc7-fade-43c2-9b44-5019eff7e69e" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="77a0bcc7-fade-43c2-9b44-5019eff7e69efileName">%2Fuser</con:setting>
   </con:settings>
@@ -50,6 +50,10 @@ Create user</con:description>
   "phone" : "string",\r
   "userStatus" : 0\r
 }</con:request>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>
