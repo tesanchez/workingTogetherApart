@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <con:restMockAction name="/v2/store/order/{orderId}" method="DELETE" resourcePath="/v2/store/order/{orderId}" id="0eba3b58-1793-457b-b0af-a36702753698" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
-    <con:setting id="0eba3b58-1793-457b-b0af-a36702753698fileName">%2Fv2%2Fstore%2Forder%2F%7BorderId%7D-1</con:setting>
+    <con:setting id="0eba3b58-1793-457b-b0af-a36702753698fileName">%2Fv2%2Fstore%2Forder%2F%7BorderId%7D-1-2</con:setting>
   </con:settings>
   <con:dispatchStyle>SEQUENCE</con:dispatchStyle>
   <con:dispatchConfig/>
