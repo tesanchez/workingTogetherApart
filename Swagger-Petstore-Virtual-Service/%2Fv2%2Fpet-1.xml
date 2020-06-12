@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <con:restMockAction name="/v2/pet" method="PUT" resourcePath="/v2/pet" id="fee300c8-cda2-4501-a657-eef491edb1f1" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
-    <con:setting id="fee300c8-cda2-4501-a657-eef491edb1f1fileName">%2Fv2%2Fpet-1-2</con:setting>
+    <con:setting id="fee300c8-cda2-4501-a657-eef491edb1f1fileName">%2Fv2%2Fpet-1</con:setting>
   </con:settings>
   <con:dispatchStyle>SEQUENCE</con:dispatchStyle>
   <con:dispatchConfig/>
