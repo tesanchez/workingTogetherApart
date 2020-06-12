@@ -7,11 +7,11 @@
   <con:dispatchConfig/>
   <con:dispatchXPath/>
   <con:routeScript/>
-  <con:response name="Response 1" id="854f9ef5-84da-49e4-a28c-f4d5dee335c3" httpResponseStatus="200" mediaType="application/json">
+  <con:response name="Response 1" id="854f9ef5-84da-49e4-a28c-f4d5dee335c3" httpResponseStatus="200" mediaType="application/json" dataSource="">
     <con:settings/>
     <con:responseContent/>
   </con:response>
-  <con:response name="Response 2" id="eff8c96f-ce4e-4be4-ac96-d6a03844cd30" httpResponseStatus="200" mediaType="application/xml" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200025a000a636f6d707265737365645b0004646174617400025b4278700070">
+  <con:response name="Response 2" id="eff8c96f-ce4e-4be4-ac96-d6a03844cd30" httpResponseStatus="200" mediaType="application/xml" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200025a000a636f6d707265737365645b0004646174617400025b4278700070" dataSource="">
     <con:settings/>
     <con:responseContent><![CDATA[<Pet>
    <id>0</id>
@@ -32,11 +32,11 @@
    <status>available</status>
 </Pet>]]></con:responseContent>
   </con:response>
-  <con:response name="Response 3" id="cb968d96-dbd8-495c-b167-d88df8327345" httpResponseStatus="400" mediaType="application/json">
+  <con:response name="Response 3" id="cb968d96-dbd8-495c-b167-d88df8327345" httpResponseStatus="400" mediaType="application/json" dataSource="">
     <con:settings/>
     <con:responseContent/>
   </con:response>
-  <con:response name="Response 4" id="809bf1c3-855c-4ac0-93ef-137f4903029d" httpResponseStatus="400" mediaType="application/xml">
+  <con:response name="Response 4" id="809bf1c3-855c-4ac0-93ef-137f4903029d" httpResponseStatus="400" mediaType="application/xml" dataSource="">
     <con:settings/>
     <con:responseContent/>
   </con:response>

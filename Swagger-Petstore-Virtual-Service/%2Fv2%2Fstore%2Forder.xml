@@ -7,7 +7,7 @@
   <con:dispatchConfig/>
   <con:dispatchXPath/>
   <con:routeScript/>
-  <con:response name="Response 1" id="b6bc51c5-e205-4dd4-bdb7-b2c7b4cecaf3" httpResponseStatus="200" mediaType="application/json" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200025a000a636f6d707265737365645b0004646174617400025b4278700070">
+  <con:response name="Response 1" id="b6bc51c5-e205-4dd4-bdb7-b2c7b4cecaf3" httpResponseStatus="200" mediaType="application/json" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200025a000a636f6d707265737365645b0004646174617400025b4278700070" dataSource="">
     <con:settings/>
     <con:responseContent>{
   "id" : 0,
@@ -18,7 +18,7 @@
   "complete" : true
 }</con:responseContent>
   </con:response>
-  <con:response name="Response 2" id="f47a3d3d-b699-4cdd-87b0-886b81381b1b" httpResponseStatus="200" mediaType="application/xml" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200025a000a636f6d707265737365645b0004646174617400025b4278700070">
+  <con:response name="Response 2" id="f47a3d3d-b699-4cdd-87b0-886b81381b1b" httpResponseStatus="200" mediaType="application/xml" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200025a000a636f6d707265737365645b0004646174617400025b4278700070" dataSource="">
     <con:settings/>
     <con:responseContent><![CDATA[<Order>
    <id>0</id>
@@ -29,11 +29,11 @@
    <complete>true</complete>
 </Order>]]></con:responseContent>
   </con:response>
-  <con:response name="Response 3" id="bb2a646c-2b7d-4174-adcf-bbb87f6b3867" httpResponseStatus="400" mediaType="application/json">
+  <con:response name="Response 3" id="bb2a646c-2b7d-4174-adcf-bbb87f6b3867" httpResponseStatus="400" mediaType="application/json" dataSource="">
     <con:settings/>
     <con:responseContent/>
   </con:response>
-  <con:response name="Response 4" id="42bc5735-a74a-4193-a107-b08d42522515" httpResponseStatus="400" mediaType="application/xml">
+  <con:response name="Response 4" id="42bc5735-a74a-4193-a107-b08d42522515" httpResponseStatus="400" mediaType="application/xml" dataSource="">
     <con:settings/>
     <con:responseContent/>
   </con:response>
